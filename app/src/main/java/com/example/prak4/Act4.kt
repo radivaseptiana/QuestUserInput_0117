@@ -55,3 +55,6 @@ fun FormDataDiri(modifier: Modifier = Modifier){
             onValueChange = {
                 textName = it
             }
+        )
+        Row {
+            gender.forEach { item ->
