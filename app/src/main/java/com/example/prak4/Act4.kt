@@ -33,3 +33,6 @@ fun FormDataDiri(modifier: Modifier = Modifier){
     //Variable-variable untuk mengingatkan nilai masukkan dari keyboard
     var textName by remember { mutableStateOf(value = "") }
     var textAlamat by remember { mutableStateOf(value = "") }
+    var textJK by remember { mutableStateOf(value = "") }
+    val gender: List<String> = listOf("Laki-laki", "Perempuan")
+
